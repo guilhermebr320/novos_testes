@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-color: pink;
+  color: white;
+  padding: 200px;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.button-container {
+  position: relative;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  background-color: red;
+  color: black;
+  width: 100px;
+}
+
+#botaoSim {
+  z-index: 0;
+}
+
+#botaoNao {
+  z-index: 1;
+}
